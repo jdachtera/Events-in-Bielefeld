@@ -1,0 +1,50 @@
+	body {
+	overflow: visible;
+}
+
+#hide {
+	display: none;
+}
+
+jocard {
+	padding-bottom: 35px;
+}
+
+body > jocontainer {
+	position: static;
+}
+
+
+			jolistitem.selected {
+			background: #ccc;
+			}
+			jolistitem.first{
+			border-top: none;
+			}
+			jolistitem.last{
+			border-bottom: none;
+			}
+			jolist jodivider {
+			border: none;
+			background: #a5a5a5;
+			height: inherit;
+			display:block;
+			padding: 5px;
+			margin:0;
+			-webkit-background-clip: padding-box;
+			-webkit-user-select: none;
+			}
+			jolist jodivider .caption {
+			background-color:#C5C5C5;
+			-webkit-border-radius: 10px;
+			display:block;
+			padding: 5px 10px 5px 10px;
+			float: left;
+			}
+			jolist jodivider .count {
+			display:block;
+			-webkit-border-radius: 10px;
+			float: right;
+			padding: 5px 5px 5px 5px;
+			background:#eeeaea;
+			}
