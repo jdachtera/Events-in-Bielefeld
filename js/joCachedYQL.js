@@ -29,9 +29,9 @@ joCachedYQL.extend(joYQL, {
 		
 	},
     
-    postProcess: function(data) {
-        return data;
-    },
+	postProcess: function(data) {
+		return data;
+	},
 	
 	forceReload: function() {
 		joYQL.prototype.exec.call(this);	
